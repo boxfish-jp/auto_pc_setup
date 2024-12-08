@@ -1,0 +1,14 @@
+[
+    {
+        "id":  1,
+        "appName":  "github release Note",
+        "status":  "installed",
+        "winget":  "StefHeyenrath.GitHubReleaseNotes"
+    },
+    {
+        "id":  2,
+        "appName":  "msvc runtime 2015+",
+        "status":  "installed",
+        "winget":  "Microsoft.VCRedist.2015+.x64"
+    }
+]
