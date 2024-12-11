@@ -23,8 +23,10 @@ Write-Output "$($appList.Length) apps found."
 
 for ($i = 0; $i -lt $appList.Length; $i++) {
     $app = $appList[$i]
-    $status = installApp -appInfo $app
-    $jsonData.updateStatus($app.id, $status)
+    if ($app.status -eq "waiting") {
+        $status = installApp -appInfo $app
+        $jsonData.updateStatus($app.id, $status)
+    }
 }
 
 Write-Output "All process is done!"
