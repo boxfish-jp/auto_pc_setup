@@ -1,14 +1,212 @@
 [
     {
-        "id":  1,
-        "appName":  "github release Note",
-        "status":  "installed",
-        "winget":  "StefHeyenrath.GitHubReleaseNotes"
+        "winget":  "Nvidia.GeForceExperience",
+        "status":  "waiting",
+        "appName":  "Nvidia.GeForceExperience",
+        "id":  1
     },
     {
-        "id":  2,
-        "appName":  "msvc runtime 2015+",
-        "status":  "installed",
-        "winget":  "Microsoft.VCRedist.2015+.x64"
+        "winget":  "CoreyButler.NVMforWindows",
+        "status":  "waiting",
+        "appName":  "CoreyButler.NVMforWindows",
+        "id":  2
+    },
+    {
+        "winget":  "Chocolatey.Chocolatey",
+        "status":  "waiting",
+        "appName":  "Chocolatey.Chocolatey",
+        "id":  3
+    },
+    {
+        "winget":  "Nvidia.CUDA",
+        "status":  "waiting",
+        "appName":  "Nvidia.CUDA",
+        "id":  4
+    },
+    {
+        "winget":  "RiotGames.Valorant.AP",
+        "status":  "waiting",
+        "appName":  "RiotGames.Valorant.AP",
+        "id":  5
+    },
+    {
+        "winget":  "wez.wezterm",
+        "status":  "waiting",
+        "appName":  "wez.wezterm",
+        "id":  6
+    },
+    {
+        "winget":  "Neovim.Neovim",
+        "status":  "waiting",
+        "appName":  "Neovim.Neovim",
+        "id":  7
+    },
+    {
+        "winget":  "Git.Git",
+        "status":  "waiting",
+        "appName":  "Git.Git",
+        "id":  8
+    },
+    {
+        "winget":  "Microsoft.VisualStudioCode",
+        "status":  "waiting",
+        "appName":  "Microsoft.VisualStudioCode",
+        "id":  9
+    },
+    {
+        "winget":  "GitHub.cli",
+        "status":  "waiting",
+        "appName":  "GitHub.cli",
+        "id":  10
+    },
+    {
+        "winget":  "Starship.Starship",
+        "status":  "waiting",
+        "appName":  "Starship.Starship",
+        "id":  11
+    },
+    {
+        "winget":  "BurntSushi.ripgrep.MSVC",
+        "status":  "waiting",
+        "appName":  "BurntSushi.ripgrep.MSVC",
+        "id":  12
+    },
+    {
+        "winget":  "JesseDuffield.lazygit",
+        "status":  "waiting",
+        "appName":  "JesseDuffield.lazygit",
+        "id":  13
+    },
+    {
+        "winget":  "tailscale.tailscale",
+        "status":  "waiting",
+        "appName":  "tailscale.tailscale",
+        "id":  14
+    },
+    {
+        "winget":  "Discord.Discord",
+        "status":  "waiting",
+        "appName":  "Discord.Discord",
+        "id":  15
+    },
+    {
+        "winget":  "Discord.Discord.PTB",
+        "status":  "waiting",
+        "appName":  "Discord.Discord.PTB",
+        "id":  16
+    },
+    {
+        "winget":  "Spotify.Spotify",
+        "status":  "waiting",
+        "appName":  "Spotify.Spotify",
+        "id":  17
+    },
+    {
+        "winget":  "7zip.7zip",
+        "status":  "waiting",
+        "appName":  "7zip.7zip",
+        "id":  18
+    },
+    {
+        "winget":  "Valve.Steam",
+        "status":  "waiting",
+        "appName":  "Valve.Steam",
+        "id":  19
+    },
+    {
+        "winget":  "DMM.GamePlayer",
+        "status":  "waiting",
+        "appName":  "DMM.GamePlayer",
+        "id":  20
+    },
+    {
+        "winget":  "BlueStack.BlueStacks",
+        "status":  "waiting",
+        "appName":  "BlueStack.BlueStacks",
+        "id":  21
+    },
+    {
+        "winget":  "CrystalDewWorld.CrystalDiskInfo.KureiKeiEdition",
+        "status":  "waiting",
+        "appName":  "CrystalDewWorld.CrystalDiskInfo.KureiKeiEdition",
+        "id":  22
+    },
+    {
+        "winget":  "Microsoft.Office",
+        "status":  "waiting",
+        "appName":  "Microsoft.Office",
+        "id":  23
+    },
+    {
+        "winget":  "NickeManarin.ScreenToGif",
+        "status":  "waiting",
+        "appName":  "NickeManarin.ScreenToGif",
+        "id":  24
+    },
+    {
+        "winget":  "Apple.iTunes",
+        "status":  "waiting",
+        "appName":  "Apple.iTunes",
+        "id":  25
+    },
+    {
+        "winget":  "Corsair.iCUE.5",
+        "status":  "waiting",
+        "appName":  "Corsair.iCUE.5",
+        "id":  26
+    },
+    {
+        "winget":  "Nvidia.CUDA",
+        "status":  "waiting",
+        "appName":  "Nvidia.CUDA",
+        "id":  27
+    },
+    {
+        "winget":  "Microsoft.VisualStudio.2019.BuildTools",
+        "status":  "waiting",
+        "appName":  "Microsoft.VisualStudio.2019.BuildTools",
+        "id":  28
+    },
+    {
+        "winget":  "Microsoft.VisualStudio.2022.Community",
+        "status":  "waiting",
+        "appName":  "Microsoft.VisualStudio.2022.Community",
+        "id":  29
+    },
+    {
+        "winget":  "ppy.osu",
+        "status":  "waiting",
+        "appName":  "ppy.osu",
+        "id":  30
+    },
+    {
+        "winget":  "Microsoft.PowerToys",
+        "status":  "waiting",
+        "appName":  "Microsoft.PowerToys",
+        "id":  31
+    },
+    {
+        "winget":  "Ollama.Ollama",
+        "status":  "waiting",
+        "appName":  "Ollama.Ollama",
+        "id":  32
+    },
+    {
+        "winget":  "HiroshibaKazuyuki.VOICEVOX",
+        "status":  "waiting",
+        "appName":  "HiroshibaKazuyuki.VOICEVOX",
+        "id":  33
+    },
+    {
+        "winget":  "xanderfrangos.twinkletray",
+        "status":  "waiting",
+        "appName":  "xanderfrangos.twinkletray",
+        "id":  34
+    },
+    {
+        "winget":  "Mozilla.Firefox",
+        "status":  "waiting",
+        "appName":  "Mozilla.Firefox",
+        "id":  35
     }
 ]
