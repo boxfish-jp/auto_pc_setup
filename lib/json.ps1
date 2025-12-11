@@ -1,18 +1,16 @@
 class AppInfo {
-    [int]$id
     [string]$appName
     [string]$status
     [string]$winget
 
-    AppInfo([int]$id, [string]$appName, [string]$status, [string]$winget) {
-        $this.id = $id
+    AppInfo([string]$appName, [string]$status, [string]$winget) {
         $this.appName = $appName
         $this.status = $status
         $this.winget = $winget
     }
 
     [void]PrintDetails() {
-        Write-Output "id: $($this.id), name: $($this.appName), status: $($this.status), winget: $($this.winget)"
+        Write-Output "name: $($this.appName), status: $($this.status), winget: $($this.winget)"
     }
 }
 
@@ -41,17 +39,17 @@ class JsonData {
         # JSONオブジェクトをAppInfoクラスのインスタンスに変換
         $appInfoList = @()
         foreach ($item in $appList) {
-            $appInfoList += [AppInfo]::new($item.id, $item.appName, $item.status, $item.winget)
+            $appInfoList += [AppInfo]::new($item.appName, $item.status, $item.winget)
         }
         return $appInfoList
     }
 
-    [void] updateStatus([int] $id, [string] $status) {
+    [void] updateStatus([string] $winget, [string] $status) {
         # JSONファイルを読み込んでオブジェクトに変換
         $appList = Get-Content $this.jsonFilePath -Encoding Default | ConvertFrom-Json
 
         # idが一致するデータを取得
-        $targetData = $appList | Where-Object { $_.id -eq $id }
+        $targetData = $appList | Where-Object { $_.winget -eq $winget }
 
         # ステータスを更新
         $targetData.status = $status

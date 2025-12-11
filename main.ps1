@@ -25,7 +25,7 @@ for ($i = 0; $i -lt $appList.Length; $i++) {
     $app = $appList[$i]
     if ($app.status -eq "waiting") {
         $status = installApp -appInfo $app
-        $jsonData.updateStatus($app.id, $status)
+        $jsonData.updateStatus($app.winget, $status)
     }
 }
 
